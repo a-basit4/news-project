@@ -1,0 +1,24 @@
+// Import Third Party modules
+@import "../../node_modules/normalize-scss/sass/normalize/import-now";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+// Import custom styles
+@import 'modules/font-awesome';
+@import 'modules/style';
+// cutom style
+
+.pagination li {
+    background: #1e90ff;
+    border: none;
+    color: #fff;
+}
+.pagination li.active a {
+    background-color: red;
+    color:black;
+}
+
+#menu-bar .menu>li.active {
+    background-color: red;
+}
+
